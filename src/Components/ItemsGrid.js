@@ -31,7 +31,7 @@ function ItemsGrid({classes, store}) {
 
     return (
         <>
-            <Button variant="contained" color="primary" onClick={handAddClick}>
+            <Button variant="contained" color="primary" onClick={handAddClick} fullWidth={true}>
                 Add new photo to the album
             </Button>
             <Container className={classes.cardGrid} maxWidth="md">
